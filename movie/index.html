@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+
+    <link rel="stylesheet" href="/movie/css/style.css">
+    <title>Document</title>
+</head>
+<div class="side-container" id="mySideContainer" onclick="closeSidebar()">
+    <p id="closeBtn">X</p>
+    </div>
+<div class="container" id="mainContainer">
+    <h1>M<span class="color-red">o</span><span class="color-green">v</span>i<span class="color-red">e</span> <span
+            class="color-green">d</span>a<span class="color-red">t</span><span class="color-green">a</span>b<span
+            class="color-red">a</span><span class="color-green">s</span>e</h1>
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search..."
+                aria-describedby="emailHelp">
+
+            <button onclick="fetches()" type="button" class="btn" id="search">
+                Search
+            </button>
+        </div>
+    </form>
+
+    <!-- <div id="movies-searchable"></div>
+    <div id="movies-container"></div> -->
+
+    <div class="img">
+        <img src="images/mistle.svg" alt="mistle">
+    </div>
+    <div class="img-flipped">
+        <img src="images/mistle-flipped.svg" alt="mistle">
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+
+</div>
+<script src="js/sidebar.js"></script>
+<script src="js/min.js"></script>
+<script src="js/backtotop.js"></script>
+
+<!-- API Key 81097dcdf5a6948abef9dabf732ec9b0 -->
+</body>
+
+</html>
